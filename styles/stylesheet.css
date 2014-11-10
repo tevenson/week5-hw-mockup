@@ -20,4 +20,19 @@ body::after {
     position: absolute;
     z-index: -1;   
 }
+
+.green {
+    background-color: lightgreen;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
     
+footer {
+    display:inline-block;    
+}
+
+footer span {
+    margin-left: 10px
+}
