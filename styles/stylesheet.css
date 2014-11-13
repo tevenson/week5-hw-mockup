@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* This was done to create lighter version of the mock-up as my background so I could code to match it perfectly */
 /* Here's the example I used: http://css-tricks.com/snippets/css/transparent-background-images */
-body::after {
+/*body::after {
     content: "";
     background: url(../images/w4-hw-mockup.jpg);
     background-repeat: no-repeat;
@@ -19,25 +19,114 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
+}*/
+
+body {
+    margin: auto;
+    width: 78rem;
 }
 
-header {
-    margin: auto;
-    max-width: 800px;
+h1, h2 {
+    color: rgb(54, 51, 52);        
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5rem
 }
 
 .green {
     background-color: rgb(189, 225, 94);
 }
 
+.blue {
+    background-color: rgb(95, 187, 220);
+}
+
 .capitalize {
     text-transform: uppercase;
 }
+
+header {
+    margin-top: 1.4rem;
+}
+
+header .top {
+    padding: 2.3rem 0rem 3.9rem 1rem;
+}
+
+header nav {
+    padding: 0.8rem 0rem 0.5rem 4.15rem;    
+}
+
+header nav li {
+    display:inline-block;    
+    margin-right: 4.7rem;
+}
+
+header nav li a {
+    color: rgb(54, 51, 52);
+}
+
+div.left-column {
+    float: left;
+}
+
+div.left-column nav {
+    margin: 0rem 1.2rem 1rem 0rem;
+    padding: 5.6rem 7.4rem 3.3rem 4rem;
+    background-color: rgb(94, 222, 219);
+}
+
+div.left-column li{
+    margin-bottom: 1.5rem;
+}
+
+div.left-column li a {
+    color: white;
+}
+
+div.left-column .box {    
+    height:14.4rem;
+    width: 20rem
+}
+
+article h3 {
+    background-color: rgb(219, 216, 95);
+    font-size: 2.2rem;
+    color: white;
+    margin-left: 21.3rem;
+    margin-bottom: 5rem;
+    padding: 1.6rem 0rem 1.6rem 5rem;
+}
+
+article p {
+    font-weight: bold;
+    width: 45rem;
+    margin-left: 26.1rem;
+    padding-bottom: 1rem
+}
     
 footer {
+    margin-top: 1.7rem;
+    float:right;
+    background-color: rgb(172, 173, 175);
+    color: rgb(52, 53, 55);
+    width: 54.8rem;
     display:inline-block;    
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.fa-inverse {
+    color: rgb(172, 173, 175);
 }
 
 footer span {
+    float: right;
     margin-left: 10px
 }
