@@ -56,7 +56,7 @@ header {
     margin-top: 1.4rem;
 }
 
-header .top {
+header div.top {
     padding: 2.3rem 0rem 3.9rem 1rem;
 }
 
@@ -65,7 +65,7 @@ header nav {
 }
 
 header nav li {
-    display:inline-block;    
+    display: inline-block;    
     margin-right: 4.7rem;
 }
 
@@ -75,11 +75,12 @@ header nav li a {
 
 div.left-column {
     float: left;
+    width: 20rem;
 }
 
 div.left-column nav {
-    margin: 0rem 1.2rem 1rem 0rem;
-    padding: 5.6rem 7.4rem 3.3rem 4rem;
+    margin-bottom: 1rem;
+    padding: 5.6rem 1rem 3.3rem 4rem;
     background-color: rgb(94, 222, 219);
 }
 
@@ -92,15 +93,17 @@ div.left-column li a {
 }
 
 div.left-column .box {    
-    height:14.4rem;
-    width: 20rem
+    height: 14.4rem;    
+}
+
+article {
+    margin-left: 21.3rem;    
 }
 
 article h3 {
     background-color: rgb(219, 216, 95);
     font-size: 2.2rem;
     color: white;
-    margin-left: 21.3rem;
     margin-bottom: 5rem;
     padding: 1.6rem 0rem 1.6rem 5rem;
 }
@@ -108,25 +111,27 @@ article h3 {
 article p {
     font-weight: bold;
     width: 45rem;
-    margin-left: 26.1rem;
+    margin-left: 5.2rem;
     padding-bottom: 1rem
 }
     
 footer {
+    margin-left: 21.3rem;
     margin-top: 1.7rem;
-    float:right;
     background-color: rgb(172, 173, 175);
     color: rgb(52, 53, 55);
-    width: 54.8rem;
-    display:inline-block;    
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.4rem 2rem;
+    text-align: right;
 }
 
-.fa-inverse {
-    color: rgb(172, 173, 175);
+footer li {
+    display:inline-block;        
 }
 
 footer span {
-    float: right;
     margin-left: 10px
+}
+
+footer .fa-inverse {
+    color: rgb(172, 173, 175);
 }
