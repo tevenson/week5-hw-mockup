@@ -135,3 +135,19 @@ footer span {
 footer .fa-inverse {
     color: rgb(172, 173, 175);
 }
+
+/* Added for accessibility */
+a.offscreen {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+a.offscreen:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
